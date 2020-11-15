@@ -1,5 +1,12 @@
 # CNN-CPU
-This is a simple CNN CPU, GPU implementation to classify MNIST data where the model can be submitted as a python Dictionary for the CPU and GPU version.
+This is a simple implementation of Convolutional Neural Netowrk running in CPU, GPU to classify MNIST data where the model can be submitted as a python Dictionary for the CPU and GPU version.
+
+Libraries Used
+  1. tensorflow-gpu 2.2.0
+  2. numpy 1.19.1
+  3. matplotlib 3.3.1
+  4. pandas 1.1.1
+
 
 CPU version is done in Layer abstraction method so that any "Sequential" archticture can be constructed with the layers implemented.
 
