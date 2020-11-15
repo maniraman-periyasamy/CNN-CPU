@@ -17,7 +17,9 @@ CPU layers :
   
 Architecture of the model can be sent as a Dictionary with the parameters for each layer as shown below.
 
-architecture = {
+
+    architecture = {
+
         "layers": [
             {
                 "name": "CNN",
@@ -38,7 +40,7 @@ architecture = {
                 "activation": "relu",
                 "input_shape": (1,28,28),
                 "image_channels":1
-
+                
             },
             {
                 "name": "pool",
